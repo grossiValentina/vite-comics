@@ -76,18 +76,17 @@ export default {
             gap: 1rem;
             margin: 1rem;
 
-                 a{
-                   text-decoration: none;
-                   color: $black;
-                   font-size: .6rem;
-                 }
-                     &:hover{
-                        background-color: $blue;
-                     }
-        }
+             a{
+               text-decoration: none;
+               color: $black;
+               font-size: .6rem;
 
-
-         
+               &:hover{
+                background-color: $blue;
+               }
+             }
+                 
+        }  
          
    }
 
