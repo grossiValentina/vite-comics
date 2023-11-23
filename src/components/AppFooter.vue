@@ -5,8 +5,16 @@ export default {
 </script>
 
 <template>
-<h2>footer</h2>
+    <div class="wrapper">
+        <div class="container">
+            <h2>footer</h2>
+        </div>
+    </div>
 </template>
 
 <style scoped lang="scss">
+
+.wrapper {
+    background-color: red;
+}
 </style>
