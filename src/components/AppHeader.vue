@@ -82,17 +82,27 @@ export default {
         gap: 1rem;
         margin: 1rem;
 
-        a {
-            text-decoration: none;
-            color: $black;
-            font-size: .6rem;
+        li{
+            height: 100%;
 
-            &:hover {
-                background-color: $blue;
-            }
+
+             a{
+                 text-decoration: none;
+                 color: $black;
+                 font-size: .6rem; 
+                 position: relative;
+
+                 &::after{
+                     content: "";
+                     height: .3rem;
+                     width: 100%;
+                     background-color: $blue;
+                     position: absolute;
+                     left: 0;
+                     bottom: 0;
+                   }
+               }
         }
-
     }
-
 }
 </style>

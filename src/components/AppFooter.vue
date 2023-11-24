@@ -17,6 +17,13 @@ export default {
 
 .wrapper {
     background-color: $gray;
-    height: 4rem;
+
+    .container{
+
+
+        h2{
+            padding: 1rem;
+        }
+    }
 }
 </style>

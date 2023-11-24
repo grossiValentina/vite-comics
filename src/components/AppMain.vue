@@ -36,14 +36,7 @@ export default {
 
 
 <template>
-    <div class="wrapper">
-
-        <div class="container">
-            <h2>contenuto da inserire</h2>
-        </div>
-
-    </div>
-
+   
     <div class="container-sm">
 
         <div v-for="(item, index) in menu" class="list-menu">
@@ -56,9 +49,27 @@ export default {
     </div>
 
     <div class="wrapper-bg">
-        <div class="image-bg">
-            <img src="../assets/img/footer-bg.jpg" alt="">
+       
+        <div>
+            <h4>TITOLO</h4>
+            <ul>
+                <li>lista </li>
+                <li>lista</li>
+                <li>lista </li>
+                <li>lista</li>
+                <li>lista </li>
+                <li>lista</li>
+            </ul>
+            <h4>TITOLO</h4>
+            <ul>
+                <li>lista </li>
+                <li>lista</li>
+                
+            </ul>
         </div>
+
+    
+    
     </div>
 
 </template>
@@ -66,19 +77,6 @@ export default {
 
 <style scoped lang="scss">
 @use "../style/partials/variables" as *;
-
-.wrapper {
-    height: 5rem;
-    background-color: $black;
-
-    .container {
-        h2 {
-            color: $white;
-            margin-top: 1.5rem;
-        }
-    }
-
-}
 
 .container-sm {
     max-width: 100%;
@@ -109,9 +107,18 @@ export default {
     }
 }
 .wrapper-bg{
-    width: 100%;
+    padding: 2rem;
     background-image: url(../assets/img/footer-bg.jpg);
-    background-size:cover;
+
+    h4{
+        color: $white;
+        font-size: .8rem; 
+    }
+    ul{
+        color: lighten($gray, 30);
+        list-style-type: none;
+    }
+   
 }
 
 
