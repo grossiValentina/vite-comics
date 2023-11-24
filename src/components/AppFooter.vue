@@ -13,8 +13,10 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use "../style/partials/variables" as *;
 
 .wrapper {
-    background-color: red;
+    background-color: $gray;
+    height: 4rem;
 }
 </style>

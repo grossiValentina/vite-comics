@@ -62,7 +62,7 @@ export default {
 
 
 .wrapper {
-    padding: 1rem 0;
+    padding: .5rem 0;
     background-color: $white;
 
     .container{
@@ -72,7 +72,7 @@ export default {
     .logo {
 
         img {
-            width: 3.5rem;
+            width: 3rem;
         }
     }
 
